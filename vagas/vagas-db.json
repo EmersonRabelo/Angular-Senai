@@ -3,21 +3,21 @@
         {
             "id": 1,
             "nome": "Desenvolvedor Front End",
-            "foto": "foto1.jpg",
+            "foto": "foto1.svg",
             "descricao": "Angular",
             "salario": 5000
         },
         {
             "id": 2,
             "nome": "Desenvolvedor Back End Pleno",
-            "foto": "foto2.jpg",
+            "foto": "foto2.svg",
             "descricao": "Spring Boot",
             "salario": 7000
         },
         {
             "id": 2,
             "nome": "Desenvolvedor Full Stack Senior",
-            "foto": "foto3.jpg",
+            "foto": "foto3.svg",
             "descricao": "Angular e Spring",
             "salario": 10000
         }
