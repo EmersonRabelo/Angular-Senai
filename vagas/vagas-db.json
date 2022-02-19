@@ -15,11 +15,32 @@
             "salario": 7000
         },
         {
-            "id": 2,
+            "id": 3,
             "nome": "Desenvolvedor Full Stack Senior",
             "foto": "foto3.svg",
             "descricao": "Angular e Spring",
             "salario": 10000
+        },
+        {
+            "id": 4,
+            "nome": "Desenvolvedor PHP",
+            "foto": "foto4.svg",
+            "descricao": "Laravel",
+            "salario": 5000
+        },
+        {
+            "id": 5,
+            "nome": "Desenvolvedor Java",
+            "foto": "foto5.svg",
+            "descricao": "Spring Boot",
+            "salario": 10000
+        },
+        {
+            "id": 6,
+            "nome": "Desenvolvedor Ruby",
+            "foto": "foto6.svg",
+            "descricao": "Ruby on Rails",
+            "salario": 15000
         }
     ]
 }
