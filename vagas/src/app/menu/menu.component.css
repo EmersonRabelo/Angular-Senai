@@ -1,0 +1,25 @@
+.pre-header {
+    text-align: center;
+}
+.pre-header h3 {
+    color: rgb(65, 136, 230);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pre-header p a {
+    text-decoration:  none;
+    color: rgb(65, 136, 230);
+}
+
+.header {
+    background-color: rgb(65, 136, 230);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.menu-header li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
