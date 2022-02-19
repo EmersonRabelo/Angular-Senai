@@ -1,0 +1,15 @@
+.listaVagas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 10% 0;
+}
+.btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    height: 50px;
+    margin-top: 50px;
+}
