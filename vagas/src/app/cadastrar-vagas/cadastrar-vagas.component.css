@@ -1,0 +1,37 @@
+
+h3 {
+    text-align: center;
+    margin: 50px 0px;
+    
+    color: rgb(65, 136, 230);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-cadastro input {
+    width: 40%;
+    height: 40px;
+
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+::placeholder {
+    color: #9c9c9c;
+    font-size: 1.1rem;
+}
+
+.btn {
+    margin: 100px 0;
+    width: 100%;
+}

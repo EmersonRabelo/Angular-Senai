@@ -1,0 +1,15 @@
+<h3>Nova Vaga</h3>
+<form class="form-cadastro">
+
+    <input type="text" name="id" id="id" placeholder="id" [(ngModel)]="vaga.id" hidden/>
+    <input type="text" name="Nome" id="nome" placeholder="Nome da vaga" [(ngModel)]="vaga.nome" />
+    <input type="text" name="foto" id="foto" placeholder="Avatar" [(ngModel)]="vaga.foto" />
+    <input type="text" name="descricao" id="descricao" placeholder="Descrição" [(ngModel)]="vaga.descricao" />
+    <input type="text" name="salario" id="salario" placeholder="salario" [(ngModel)]="vaga.salario" />
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" (click)="cadastrar()">
+            Cadastrar Vagas
+        </button>
+    </div>
+</form>
