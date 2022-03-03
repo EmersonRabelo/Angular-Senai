@@ -1,46 +1,46 @@
 {
-    "vagas": [
-        {
-            "id": 1,
-            "nome": "Desenvolvedor Front End",
-            "foto": "foto1.svg",
-            "descricao": "Angular",
-            "salario": 5000
-        },
-        {
-            "id": 2,
-            "nome": "Desenvolvedor Back End Pleno",
-            "foto": "foto2.svg",
-            "descricao": "Spring Boot",
-            "salario": 7000
-        },
-        {
-            "id": 3,
-            "nome": "Desenvolvedor Full Stack Senior",
-            "foto": "foto3.svg",
-            "descricao": "Angular e Spring",
-            "salario": 10000
-        },
-        {
-            "id": 4,
-            "nome": "Desenvolvedor PHP",
-            "foto": "foto4.svg",
-            "descricao": "Laravel",
-            "salario": 5000
-        },
-        {
-            "id": 5,
-            "nome": "Desenvolvedor Java",
-            "foto": "foto5.svg",
-            "descricao": "Spring Boot",
-            "salario": 10000
-        },
-        {
-            "id": 6,
-            "nome": "Desenvolvedor Ruby",
-            "foto": "foto6.svg",
-            "descricao": "Ruby on Rails",
-            "salario": 15000
-        }
-    ]
+  "vagas": [
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Java Sênior",
+      "foto": "foto1.svg",
+      "descricao": "Java, POO, SpringBoot, MySQL.",
+      "salario": "11000"
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Front-end",
+      "foto": "foto3.svg",
+      "descricao": "HTML, CSS, JS, TS, ANGULAR",
+      "salario": 8000
+    },
+    {
+      "id": 4,
+      "nome": "Desenvolvedor Back-end",
+      "foto": "foto4.svg",
+      "descricao": "PHP, Laravel, MySQL",
+      "salario": 10000
+    },
+    {
+      "id": 5,
+      "nome": "Desenvolvedor Mobile",
+      "foto": "foto5.svg",
+      "descricao": "Ionic, Flutter, React Native.",
+      "salario": "5000"
+    },
+    {
+      "id": 6,
+      "nome": "Desenvolvedor FullStack",
+      "foto": "foto6.svg",
+      "descricao": "HTML, CSS, JS, Angular, PHP, MySQL.",
+      "salario": "10000"
+    },
+    {
+      "id": 7,
+      "nome": "Analista de dados Sênior",
+      "foto": "foto2.svg",
+      "descricao": "MySQL e MongoDB.",
+      "salario": "12000"
+    }
+  ]
 }
