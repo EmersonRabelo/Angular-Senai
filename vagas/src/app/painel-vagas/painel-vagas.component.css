@@ -1,4 +1,14 @@
 
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    
+    color: rgb(65, 136, 230);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
 .btn {
     margin: 100px 0;
     width: 100%;

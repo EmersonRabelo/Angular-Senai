@@ -1,21 +1,20 @@
-<h3>Inserir nova vaga</h3>
-<form action="">
-    <label for="id" hidden >Id</label>
-    <input type="text" name="id" id="id" [(ngModel)] = "vaga.id" hidden>
+<h3>Atualizar vaga</h3>
+<form class="form-cadastro">
+    <input type="text" name="id" id="id" [(ngModel)] = "vaga.id" placeholder="id"  hidden>
     
-    <label for="id">Nome</label>
-    <input type="text" name="Nome" id="nome" [(ngModel)] = "vaga.nome">
+    <input type="text" name="Nome" id="nome" [(ngModel)] = "vaga.nome" placeholder="Nome da vaga">
 
-    <label for="id">Foto</label>
-    <input type="text" name="foto" id="foto" [(ngModel)] = "vaga.foto">id">
+    <input type="text" name="foto" id="foto" [(ngModel)] = "vaga.foto" placeholder="Avatar">
 
-    <label for="id">Descrição</label>
-    <input type="text" name="descricao" id="descricao" [(ngModel)] = "vaga.descricao">
+    <input type="text" name="descricao" id="descricao" [(ngModel)] = "vaga.descricao" placeholder="Descrição">
 
-    <label for="id">salario</label>c
-    <input type="text" name="salario" id="salario" [(ngModel)] = "vaga.salario">
+    <input type="text" name="salario" id="salario" [(ngModel)] = "vaga.salario" placeholder="salario">
 
-    <button type="button" (click)="atualizar()">Atualizar</button>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button" (click)="atualizar()">
+            Atualizar
+        </button>
+    </div>
     
 </form>
 <!-- 
