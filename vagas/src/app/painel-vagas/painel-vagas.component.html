@@ -1,1 +1,33 @@
-<p>painel-vagas works!</p>
+<h3>Inserir nova vaga</h3>
+<form action="">
+    <label for="id" hidden >Id</label>
+    <input type="text" name="id" id="id" [(ngModel)] = "vaga.id" hidden>
+    
+    <label for="id">Nome</label>
+    <input type="text" name="Nome" id="nome" [(ngModel)] = "vaga.nome">
+
+    <label for="id">Foto</label>
+    <input type="text" name="foto" id="foto" [(ngModel)] = "vaga.foto">id">
+
+    <label for="id">Descrição</label>
+    <input type="text" name="descricao" id="descricao" [(ngModel)] = "vaga.descricao">
+
+    <label for="id">salario</label>c
+    <input type="text" name="salario" id="salario" [(ngModel)] = "vaga.salario">
+
+    <button type="button" (click)="atualizar()">Atualizar</button>
+    
+</form>
+<!-- 
+<form class="form-cadastro">
+
+    <input type="text" name="id" id="id" placeholder="id" [(ngModel)]="vaga.id" hidden/>
+    <input type="text" name="Nome" id="nome" placeholder="Nome da vaga" [(ngModel)]="vaga.nome" />
+    <input type="text" name="foto" id="foto" placeholder="Avatar" [(ngModel)]="vaga.foto" />
+    <input type="text" name="descricao" id="descricao" placeholder="Descrição" [(ngModel)]="vaga.descricao" />
+    <input type="text" name="salario" id="salario" placeholder="salario" [(ngModel)]="vaga.salario" />
+
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button"  (click)="atualizar()"> Atualizar </button> 
+    </div>
+</form> -->
