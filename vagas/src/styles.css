@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin: 50px 0;
+}
+
+.form-cadastro input {
+    width: 40%;
+    height: 40px;
+
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+::placeholder {
+    color: #9c9c9c;
+    font-size: 1.1rem;
+}
