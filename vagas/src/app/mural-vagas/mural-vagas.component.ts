@@ -43,7 +43,11 @@ export class MuralVagasComponent implements OnInit {
     );
 
     window.location.href = "/mural";
+  }
 
+  atualizar(id: Number) {
+    localStorage.setItem('id',`${id}`);
+    window.location.href = "/painel";
   }
 
 }

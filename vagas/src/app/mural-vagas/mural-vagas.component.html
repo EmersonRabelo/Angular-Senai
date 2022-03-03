@@ -3,12 +3,12 @@
     <div class="card" style="width: 18rem;">
       <img src="assets\img\vagas\{{vaga.foto}}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Código da vaga: {{vaga.id}}</h5>
+        <h5 class="card-title" hidden>Código da vaga: {{vaga.id}}</h5>
         <h5 class="card-title">Vaga: {{vaga.nome}}</h5>
         <h5 class="card-title">Descrição: {{vaga.descricao}}</h5>
         <h5 class="card-title">Salario: R${{vaga.salario}},00</h5>
         <div class="btn-row">
-          <!-- <button type="button" class="btn btn-primary btn-lg" (click)="atualizar(vaga.id)">Atualizar</button> -->
+          <button type="button" class="btn btn-primary btn-lg" (click)="atualizar(vaga.id)">Atualizar</button>
           <button type="button" class="btn btn-secondary btn-lg" (click)="excluir(vaga.id)">Excluir</button>
         </div>
       </div>
