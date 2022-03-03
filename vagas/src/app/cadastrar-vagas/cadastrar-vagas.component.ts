@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Vaga } from '../models/Vagas.model';
 import { VagasService } from '../vagas.service';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-cadastrar-vagas',
@@ -22,8 +23,14 @@ export class CadastrarVagasComponent implements OnInit {
       vaga => {this.vaga = new Vaga(0, "", "", "", 0)},
       err => {console.log("erro ao cadastrar")}
     );
-    alert('sucesso');
-    window.location.href = "/mural"
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Your work has been saved',
+      showConfirmButton: false,
+      timer: 1000
+    }).then(()=> location.href = "/mural")
+ 
   }
 
 }

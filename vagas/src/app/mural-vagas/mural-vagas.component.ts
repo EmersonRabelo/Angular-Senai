@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Vaga } from '../models/Vagas.model';
 import { VagasService } from '../vagas.service';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-mural-vagas',
@@ -37,12 +38,30 @@ export class MuralVagasComponent implements OnInit {
   }
 
   excluir(id: Number) {
-    this._vagaService.removeVagas(id).subscribe(
-      vaga => {this.vaga = new Vaga(0, "", "", "", 0)},
-      err => {console.log("erro ao excluir")}
-    );
 
-    window.location.href = "/mural";
+    Swal.fire({
+      title: 'Tem certeza?',
+      text: "Você não será capaz de reverter isso!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Sim, exclua!'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+           
+          'Excluído!',
+          'Seu arquivo foi excluído.',
+          'success'
+        )
+        this._vagaService.removeVagas(id).subscribe(
+          vaga => {this.vaga = new Vaga(0, "", "", "", 0)},
+          err => {console.log("erro ao excluir")}
+        );
+        window.location.href = "/mural";
+      }
+    })
   }
 
   atualizar(id: Number) {
