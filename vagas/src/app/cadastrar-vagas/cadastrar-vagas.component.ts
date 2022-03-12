@@ -26,7 +26,7 @@ export class CadastrarVagasComponent implements OnInit {
     Swal.fire({
       position: 'top-end',
       icon: 'success',
-      title: 'Your work has been saved',
+      title: 'Vaga cadastrada com sucesso!',
       showConfirmButton: false,
       timer: 1000
     }).then(()=> location.href = "/mural")

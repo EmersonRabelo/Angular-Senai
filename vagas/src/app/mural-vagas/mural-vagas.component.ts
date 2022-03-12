@@ -50,16 +50,16 @@ export class MuralVagasComponent implements OnInit {
     }).then((result) => {
       if (result.isConfirmed) {
         Swal.fire(
-           
           'Excluído!',
           'Seu arquivo foi excluído.',
           'success'
-        )
-        this._vagaService.removeVagas(id).subscribe(
+        ).then(() => {
+          this._vagaService.removeVagas(id).subscribe(
           vaga => {this.vaga = new Vaga(0, "", "", "", 0)},
           err => {console.log("erro ao excluir")}
-        );
-        window.location.href = "/mural";
+          );
+          window.location.href = "/mural";
+        })
       }
     })
   }
