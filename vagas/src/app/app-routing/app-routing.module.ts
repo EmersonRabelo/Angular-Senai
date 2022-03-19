@@ -10,7 +10,7 @@ const rotas: Routes = [
     {path: 'mural', component: MuralVagasComponent},
     {path: 'painel', component: PainelVagasComponent},
     {path: 'cadastrar', component: CadastrarVagasComponent},
-    {path: '', redirectTo: '/mural', pathMatch: 'full'} // Caso não seja escolhi nenhuma das opções acima, sera direcionado a mural
+    {path: '', redirectTo: '/mural', pathMatch: 'full'} // Caso não seja escolhido nenhuma das opções acima, sera direcionado a mural
 ];
 
 @NgModule({
